@@ -9,15 +9,15 @@ int Number(string str)
     return Convert.ToInt32(Console.ReadLine()); 
 } 
  
-int Res(int number) 
-{ 
-    while (number != 0) 
-    { 
-        result += number % 2; 
-        number /= 2; 
-    } 
-    return number; 
-} 
+// int Res(int number) 
+// {   int result = 0;
+//     while (number != 0) 
+//     { 
+//         result += number % 2; 
+//         number /= 2; 
+//     } 
+//     return number; 
+// } 
  
 string ReverseString(string str) 
 { 
